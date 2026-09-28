@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedAt": 1790601113065,
+  "checkedAt": 1790601191424,
   "topics": [
     {
       "id": "jevgrep",
@@ -14,7 +14,7 @@
         "publishedAt": 1790595475000,
         "note": "Reduces duplicate source freshness checks and speeds up binary-file detection while retaining validation before HTTP attempts and cached-answer returns."
       },
-      "checkedAt": 1790601113065
+      "checkedAt": 1790601191424
     },
     {
       "id": "skills-cli",
@@ -27,7 +27,7 @@
         "url": "https://github.com/vercel-labs/skills/releases/tag/v1.7.0",
         "publishedAt": 1789657230000
       },
-      "checkedAt": 1790601113065
+      "checkedAt": 1790601191424
     },
     {
       "id": "claude-code",
@@ -41,7 +41,7 @@
         "publishedAt": 1790373012000,
         "note": "Added x-claude-code-prompt-id to the gateway hint headers so LLM gateways can group the requests that serve one user prompt; opt…"
       },
-      "checkedAt": 1790601113065
+      "checkedAt": 1790601191424
     }
   ],
   "failures": []
