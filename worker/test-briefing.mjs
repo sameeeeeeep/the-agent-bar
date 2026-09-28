@@ -28,7 +28,7 @@ await test('briefing fetches only its fixed public source without forwarding cli
     assert.equal(url, upstream);
     assert.equal(options.method, 'GET');
     assert.deepEqual(options.headers, { Accept: 'application/json' });
-    assert.equal(options.redirect, 'error');
+    assert.equal(options.redirect, 'manual');
     assert.equal(options.credentials, 'omit');
     assert.equal(options.referrerPolicy, 'no-referrer');
     assert.ok(options.signal instanceof AbortSignal);
@@ -151,6 +151,20 @@ await test('briefing fails safely on transport, redirects, malformed JSON or emp
     const { response, data } = await request(mock);
     assert.equal(response.status, 503);
     assert.deepEqual(data, { ok: false, error: 'public briefing is unavailable', unavailable: true });
+  }
+});
+
+await test('briefing rejects redirect responses without requesting their Location', async () => {
+  for (const status of [301,302,303,307,308]) {
+    let requests=0;
+    const { response }=await request(async (url,options)=>{
+      requests++;
+      assert.equal(url,upstream);
+      assert.equal(options.redirect,'manual');
+      return new Response('',{status,headers:{location:'https://private.example/internal','content-type':'application/json'}});
+    });
+    assert.equal(response.status,503);
+    assert.equal(requests,1);
   }
 });
 

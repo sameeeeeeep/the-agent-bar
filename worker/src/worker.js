@@ -308,7 +308,9 @@ async function publicBriefing(env) {
   try {
     return await Promise.race([
       (async () => {
-        const response = await fetch(target, { method: 'GET', headers: { Accept: 'application/json' }, redirect: 'error', credentials: 'omit', referrerPolicy: 'no-referrer', signal: controller.signal });
+        // workerd has no redirect:'error'. Manual mode prevents a second request;
+        // the non-2xx check below rejects redirects without following Location.
+        const response = await fetch(target, { method: 'GET', headers: { Accept: 'application/json' }, redirect: 'manual', credentials: 'omit', referrerPolicy: 'no-referrer', signal: controller.signal });
         if (!response.ok || response.redirected || !/^application\/(?:[a-z0-9.+-]+\+)?json\b/i.test(response.headers.get('content-type') || '') || Number(response.headers.get('content-length')) > BRIEFING_MAX_BYTES || !response.body) throw new Error('unavailable briefing');
         reader = response.body.getReader();
         const chunks = []; let size = 0;
