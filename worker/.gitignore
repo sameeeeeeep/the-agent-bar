@@ -1,0 +1,6 @@
+node_modules/
+.wrangler/
+.dev.vars
+.dev.vars.*
+.production-admin-secret
+*.log

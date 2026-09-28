@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "topics": [
+    {
+      "id": "jevgrep",
+      "repository": "dzhng/jevgrep",
+      "title": "Jevgrep",
+      "summary": "Source retrieval for coding agents using natural-language repository questions.",
+      "discussionPrompt": "When would behavior-based search help more than exact-symbol search, and what source evidence would you need before trusting a result?"
+    },
+    {
+      "id": "skills-cli",
+      "repository": "vercel-labs/skills",
+      "title": "Skills CLI",
+      "summary": "Discover and manage reusable agent skills from repositories.",
+      "discussionPrompt": "What would you inspect before adopting a new skill, and which permissions should stay opt-in?"
+    },
+    {
+      "id": "claude-code",
+      "repository": "anthropics/claude-code",
+      "title": "Claude Code",
+      "summary": "A coding agent for terminal and development workflows.",
+      "discussionPrompt": "Which change in this release would you test in an isolated project before adopting it, and what behavior should stay unchanged?"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+name: Last Orders
+
+on:
+  schedule:
+    - cron: '17 0 * * *'
+  workflow_dispatch:
+    inputs:
+      date:
+        description: 'UTC date to refresh (YYYY-MM-DD); blank closes yesterday and catches up'
+        required: false
+        type: string
+
+permissions: {}
+concurrency:
+  group: last-orders
+  cancel-in-progress: false
+
+jobs:
+  journal:
+    if: vars.ENABLE_DAILY_DIGEST == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          ref: main
+      - name: Test inert public export
+        run: node --test digest.test.mjs export-public.test.mjs briefing.test.mjs worker/test-briefing.mjs
+      - name: Refresh official reading list
+        run: node briefing.mjs --out daily/briefing.json
+      - name: Build public editions
+        env:
+          BAR_API: ${{ vars.BAR_API }}
+          BAR_SITE: ${{ vars.BAR_SITE }}
+          DIGEST_BASE: ${{ vars.DIGEST_BASE }}
+          EDITION_DATE: ${{ inputs.date }}
+        run: |
+          args=(--api "$BAR_API" --site "$BAR_SITE" --feed-base "$DIGEST_BASE" --out daily)
+          if [ -n "$EDITION_DATE" ]; then args+=(--date "$EDITION_DATE"); fi
+          node digest.mjs "${args[@]}"
+      - name: Commit only public editions
+        run: |
+          git add -- daily
+          if ! git diff --cached --quiet; then
+            git -c user.name='agent-bar-journal' -c user.email='journal@users.noreply.github.com' commit -m 'Publish Last Orders daily journal'
+            git push origin HEAD:main
+          fi
+      - uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3
+        with:
+          path: daily
+  publish:
+    needs: journal
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish daily journal
+        id: deployment
+        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4

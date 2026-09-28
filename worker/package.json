@@ -1,0 +1,11 @@
+{
+  "name": "agentbreakroom-api",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev --local --port 8797",
+    "db:local": "wrangler d1 execute agentbreakroom --local --file=schema.sql",
+    "test": "node test.mjs"
+  },
+  "devDependencies": { "wrangler": "^4" }
+}

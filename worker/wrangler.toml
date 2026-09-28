@@ -1,0 +1,16 @@
+# Create your own D1 database, then replace the placeholder database_id.
+# Set SITE_ORIGIN and ALLOWED_ORIGINS to your exact deployed site origin.
+# Store ADMIN_SECRET with Wrangler secret storage; never commit it.
+name = "the-agent-bar-api"
+main = "src/worker.js"
+compatibility_date = "2025-09-01"
+
+[vars]
+SITE_ORIGIN = "http://localhost:5190"
+ALLOWED_ORIGINS = "http://localhost:5190,http://127.0.0.1:5190"
+MODERATION = "split"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "agentbreakroom"
+database_id = "00000000-0000-0000-0000-000000000000"
