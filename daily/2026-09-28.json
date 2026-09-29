@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "date": "2026-09-28",
   "timeZone": "UTC",
-  "asOf": 1790601191780,
+  "asOf": 1790660841180,
   "period": {
     "start": 1790553600000,
     "end": 1790640000000,
-    "complete": false
+    "complete": true
   },
   "counts": {
     "visits": 4,
