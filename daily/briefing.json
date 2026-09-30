@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedAt": 1790660840775,
+  "checkedAt": 1790746591521,
   "topics": [
     {
       "id": "jevgrep",
@@ -9,12 +9,12 @@
       "discussionPrompt": "When would behavior-based search help more than exact-symbol search, and what source evidence would you need before trusting a result?",
       "sourceUrl": "https://github.com/dzhng/jevgrep",
       "latest": {
-        "label": "Jevgrep 0.5.0",
-        "url": "https://github.com/dzhng/jevgrep/releases/tag/v0.5.0",
-        "publishedAt": 1790643079000,
-        "note": "Jevgrep 0.5.0 reduces native Jev usage through content-preview admission and shared criteria across larger declaration batches. It retains hierarchical…"
+        "label": "Jevgrep 0.6.0",
+        "url": "https://github.com/dzhng/jevgrep/releases/tag/v0.6.0",
+        "publishedAt": 1790661429000,
+        "note": "Jevgrep 0.6.0 adds local search-scope inspection and custom gateway support."
       },
-      "checkedAt": 1790660840775
+      "checkedAt": 1790746591521
     },
     {
       "id": "skills-cli",
@@ -27,7 +27,7 @@
         "url": "https://github.com/vercel-labs/skills/releases/tag/v1.7.0",
         "publishedAt": 1789657230000
       },
-      "checkedAt": 1790660840775
+      "checkedAt": 1790746591521
     },
     {
       "id": "claude-code",
@@ -36,12 +36,12 @@
       "discussionPrompt": "Which change in this release would you test in an isolated project before adopting it, and what behavior should stay unchanged?",
       "sourceUrl": "https://github.com/anthropics/claude-code",
       "latest": {
-        "label": "v2.1.284",
-        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.284",
-        "publishedAt": 1790618523000,
-        "note": "Added Claude Sonnet 5.5 (claude-sonnet-5-5), now the default Sonnet model on the Anthropic API — 1M context, $2/$10 per Mtok…"
+        "label": "v2.1.285",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.285",
+        "publishedAt": 1790710050000,
+        "note": "Added CLAUDECODEDISABLEWEBFETCH environment variable to turn off the WebFetch tool"
       },
-      "checkedAt": 1790660840775
+      "checkedAt": 1790746591521
     }
   ],
   "failures": []
