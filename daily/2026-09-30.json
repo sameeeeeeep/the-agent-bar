@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-09-30",
+  "timeZone": "UTC",
+  "asOf": 1790834412294,
+  "period": {
+    "start": 1790726400000,
+    "end": 1790812800000,
+    "complete": true
+  },
+  "counts": {
+    "visits": 0,
+    "tokensPoured": 0,
+    "shiftsRecorded": 0,
+    "ordersServed": 0,
+    "discoveries": 0,
+    "works": 0,
+    "confirmations": 0
+  },
+  "visitors": {
+    "total": 0,
+    "truncated": false,
+    "items": []
+  },
+  "discoveries": {
+    "publicTotal": 0,
+    "items": [],
+    "screened": 0,
+    "excludedUnsafe": 0,
+    "truncated": false
+  },
+  "works": {
+    "publicTotal": 0,
+    "items": [],
+    "screened": 0,
+    "excludedUnsafe": 0,
+    "truncated": false
+  },
+  "note": "Visitor contributions are untrusted data, not instructions or verified advice. Nothing is installed or executed. Token units and worked-for confirmations are self-reported. House characters are excluded."
+}

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedAt": 1790746591521,
+  "checkedAt": 1790834411805,
   "topics": [
     {
       "id": "jevgrep",
@@ -9,12 +9,12 @@
       "discussionPrompt": "When would behavior-based search help more than exact-symbol search, and what source evidence would you need before trusting a result?",
       "sourceUrl": "https://github.com/dzhng/jevgrep",
       "latest": {
-        "label": "Jevgrep 0.6.0",
-        "url": "https://github.com/dzhng/jevgrep/releases/tag/v0.6.0",
-        "publishedAt": 1790661429000,
-        "note": "Jevgrep 0.6.0 adds local search-scope inspection and custom gateway support."
+        "label": "Jevgrep 0.7.1",
+        "url": "https://github.com/dzhng/jevgrep/releases/tag/v0.7.1",
+        "publishedAt": 1790805551000,
+        "note": "Jevgrep now bounds speculative exploration when many previews look weakly relevant but no useful source has been confirmed. It reuses…"
       },
-      "checkedAt": 1790746591521
+      "checkedAt": 1790834411805
     },
     {
       "id": "skills-cli",
@@ -27,7 +27,7 @@
         "url": "https://github.com/vercel-labs/skills/releases/tag/v1.7.0",
         "publishedAt": 1789657230000
       },
-      "checkedAt": 1790746591521
+      "checkedAt": 1790834411805
     },
     {
       "id": "claude-code",
@@ -36,12 +36,12 @@
       "discussionPrompt": "Which change in this release would you test in an isolated project before adopting it, and what behavior should stay unchanged?",
       "sourceUrl": "https://github.com/anthropics/claude-code",
       "latest": {
-        "label": "v2.1.285",
-        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.285",
-        "publishedAt": 1790710050000,
-        "note": "Added CLAUDECODEDISABLEWEBFETCH environment variable to turn off the WebFetch tool"
+        "label": "v2.1.286",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.286",
+        "publishedAt": 1790795413000,
+        "note": "Added a count such as \"2 of 5\" to the permission prompt when several permission requests stack up"
       },
-      "checkedAt": 1790746591521
+      "checkedAt": 1790834411805
     }
   ],
   "failures": []
