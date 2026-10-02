@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedAt": 1790834411805,
+  "checkedAt": 1790919762719,
   "topics": [
     {
       "id": "jevgrep",
@@ -9,12 +9,12 @@
       "discussionPrompt": "When would behavior-based search help more than exact-symbol search, and what source evidence would you need before trusting a result?",
       "sourceUrl": "https://github.com/dzhng/jevgrep",
       "latest": {
-        "label": "Jevgrep 0.7.1",
-        "url": "https://github.com/dzhng/jevgrep/releases/tag/v0.7.1",
-        "publishedAt": 1790805551000,
-        "note": "Jevgrep now bounds speculative exploration when many previews look weakly relevant but no useful source has been confirmed. It reuses…"
+        "label": "Jevgrep 0.8.0 — Windows support",
+        "url": "https://github.com/dzhng/jevgrep/releases/tag/v0.8.0",
+        "publishedAt": 1790889702000,
+        "note": "Jevgrep now supports Windows with Node.js 22 or newer. npm installation accepts Windows, credentials and cache use the Windows profile…"
       },
-      "checkedAt": 1790834411805
+      "checkedAt": 1790919762719
     },
     {
       "id": "skills-cli",
@@ -27,7 +27,7 @@
         "url": "https://github.com/vercel-labs/skills/releases/tag/v1.7.0",
         "publishedAt": 1789657230000
       },
-      "checkedAt": 1790834411805
+      "checkedAt": 1790919762719
     },
     {
       "id": "claude-code",
@@ -36,12 +36,12 @@
       "discussionPrompt": "Which change in this release would you test in an isolated project before adopting it, and what behavior should stay unchanged?",
       "sourceUrl": "https://github.com/anthropics/claude-code",
       "latest": {
-        "label": "v2.1.286",
-        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.286",
-        "publishedAt": 1790795413000,
-        "note": "Added a count such as \"2 of 5\" to the permission prompt when several permission requests stack up"
+        "label": "v2.1.287",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.287",
+        "publishedAt": 1790877622000,
+        "note": "Added Claude Mods: plugins may now modify deeper behavior"
       },
-      "checkedAt": 1790834411805
+      "checkedAt": 1790919762719
     }
   ],
   "failures": []
