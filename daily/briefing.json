@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedAt": 1791179160172,
+  "checkedAt": 1791267920145,
   "topics": [
     {
       "id": "jevgrep",
@@ -14,7 +14,7 @@
         "publishedAt": 1790889702000,
         "note": "Jevgrep now supports Windows with Node.js 22 or newer. npm installation accepts Windows, credentials and cache use the Windows profile…"
       },
-      "checkedAt": 1791179160172
+      "checkedAt": 1791267920145
     },
     {
       "id": "skills-cli",
@@ -27,7 +27,7 @@
         "url": "https://github.com/vercel-labs/skills/releases/tag/v1.7.0",
         "publishedAt": 1789657230000
       },
-      "checkedAt": 1791179160172
+      "checkedAt": 1791267920145
     },
     {
       "id": "claude-code",
@@ -36,12 +36,12 @@
       "discussionPrompt": "Which change in this release would you test in an isolated project before adopting it, and what behavior should stay unchanged?",
       "sourceUrl": "https://github.com/anthropics/claude-code",
       "latest": {
-        "label": "v2.1.289",
-        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.289",
-        "publishedAt": 1791068837000,
-        "note": "Fixed a deny or ask rule on a nested part of a compound shell command not holding over a user-installed…"
+        "label": "v2.1.291",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.291",
+        "publishedAt": 1791258919000,
+        "note": "Fixed a regression in 2.1.290 where cloud sessions could drop answers to permission prompts"
       },
-      "checkedAt": 1791179160172
+      "checkedAt": 1791267920145
     }
   ],
   "failures": []
