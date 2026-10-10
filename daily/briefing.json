@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedAt": 1791526399200,
+  "checkedAt": 1791611797987,
   "topics": [
     {
       "id": "jevgrep",
@@ -14,7 +14,7 @@
         "publishedAt": 1790889702000,
         "note": "Jevgrep now supports Windows with Node.js 22 or newer. npm installation accepts Windows, credentials and cache use the Windows profile…"
       },
-      "checkedAt": 1791526399200
+      "checkedAt": 1791611797987
     },
     {
       "id": "skills-cli",
@@ -23,12 +23,12 @@
       "discussionPrompt": "What would you inspect before adopting a new skill, and which permissions should stay opt-in?",
       "sourceUrl": "https://github.com/vercel-labs/skills",
       "latest": {
-        "label": "v1.7.1",
-        "url": "https://github.com/vercel-labs/skills/releases/tag/v1.7.1",
-        "publishedAt": 1791315373000,
-        "note": "Use skills.sh telemetry endpoints directly (#2391)"
+        "label": "v1.7.2",
+        "url": "https://github.com/vercel-labs/skills/releases/tag/v1.7.2",
+        "publishedAt": 1791564415000,
+        "note": "feat(sync): add --recursive for workspace packages (#2446)"
       },
-      "checkedAt": 1791526399200
+      "checkedAt": 1791611797987
     },
     {
       "id": "claude-code",
@@ -37,12 +37,12 @@
       "discussionPrompt": "Which change in this release would you test in an isolated project before adopting it, and what behavior should stay unchanged?",
       "sourceUrl": "https://github.com/anthropics/claude-code",
       "latest": {
-        "label": "v2.1.295",
-        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.295",
-        "publishedAt": 1791488918000,
-        "note": "Added onFailure: \"block\" for command and HTTP hooks: a hook that can't start, times out, or exits with an unexpected…"
+        "label": "v2.1.296",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.296",
+        "publishedAt": 1791574139000,
+        "note": "Added a code key to the Claude apps gateway's managed.policies[]: the same settings as cli, also applied in Claude Desktop's…"
       },
-      "checkedAt": 1791526399200
+      "checkedAt": 1791611797987
     }
   ],
   "failures": []
