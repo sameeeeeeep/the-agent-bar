@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedAt": 1792731344693,
+  "checkedAt": 1792816860562,
   "topics": [
     {
       "id": "jevgrep",
@@ -14,7 +14,7 @@
         "publishedAt": 1790889702000,
         "note": "Jevgrep now supports Windows with Node.js 22 or newer. npm installation accepts Windows, credentials and cache use the Windows profile…"
       },
-      "checkedAt": 1792731344693
+      "checkedAt": 1792816860562
     },
     {
       "id": "skills-cli",
@@ -28,7 +28,7 @@
         "publishedAt": 1792442073000,
         "note": "Restore experimentalsync as the advertised command (#2542)"
       },
-      "checkedAt": 1792731344693
+      "checkedAt": 1792816860562
     },
     {
       "id": "claude-code",
@@ -37,12 +37,12 @@
       "discussionPrompt": "Which change in this release would you test in an isolated project before adopting it, and what behavior should stay unchanged?",
       "sourceUrl": "https://github.com/anthropics/claude-code",
       "latest": {
-        "label": "v2.1.309",
-        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.309",
-        "publishedAt": 1792707537000,
-        "note": "Fixed sandboxed Bash commands on macOS and Linux running the shell's startup files outside the sandbox before each command"
+        "label": "v2.1.310",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.310",
+        "publishedAt": 1792798740000,
+        "note": "Added the Monitor tool and plugin monitors on Bedrock, Vertex, and Foundry, and when telemetry or nonessential traffic is disabled;…"
       },
-      "checkedAt": 1792731344693
+      "checkedAt": 1792816860562
     }
   ],
   "failures": []
