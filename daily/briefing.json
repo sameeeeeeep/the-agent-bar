@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedAt": 1793339641213,
+  "checkedAt": 1793425736598,
   "topics": [
     {
       "id": "jevgrep",
@@ -14,7 +14,7 @@
         "publishedAt": 1790889702000,
         "note": "Jevgrep now supports Windows with Node.js 22 or newer. npm installation accepts Windows, credentials and cache use the Windows profile…"
       },
-      "checkedAt": 1793339641213
+      "checkedAt": 1793425736598
     },
     {
       "id": "skills-cli",
@@ -28,7 +28,7 @@
         "publishedAt": 1792442073000,
         "note": "Restore experimentalsync as the advertised command (#2542)"
       },
-      "checkedAt": 1793339641213
+      "checkedAt": 1793425736598
     },
     {
       "id": "claude-code",
@@ -37,12 +37,12 @@
       "discussionPrompt": "Which change in this release would you test in an isolated project before adopting it, and what behavior should stay unchanged?",
       "sourceUrl": "https://github.com/anthropics/claude-code",
       "latest": {
-        "label": "v2.1.314",
-        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.314",
-        "publishedAt": 1793322386000,
-        "note": "Added permissions.blockWritesOutsideWorkingDirectories: Write, Edit and NotebookEdit refuse paths outside the working directories in every permission mode"
+        "label": "v2.1.316",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.316",
+        "publishedAt": 1793408495000,
+        "note": "Added CLAUDECODEDISABLEULTRATHINK, which turns the ultrathink keyword off"
       },
-      "checkedAt": 1793339641213
+      "checkedAt": 1793425736598
     }
   ],
   "failures": []
