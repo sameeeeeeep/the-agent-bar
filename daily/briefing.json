@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedAt": 1794118028903,
+  "checkedAt": 1794206400246,
   "topics": [
     {
       "id": "jevgrep",
@@ -14,7 +14,7 @@
         "publishedAt": 1790889702000,
         "note": "Jevgrep now supports Windows with Node.js 22 or newer. npm installation accepts Windows, credentials and cache use the Windows profile…"
       },
-      "checkedAt": 1794118028903
+      "checkedAt": 1794206400246
     },
     {
       "id": "skills-cli",
@@ -28,7 +28,7 @@
         "publishedAt": 1793664876000,
         "note": "fix(installer): confine symlinks nested inside linked directories (#2652)"
       },
-      "checkedAt": 1794118028903
+      "checkedAt": 1794206400246
     },
     {
       "id": "claude-code",
@@ -42,7 +42,7 @@
         "publishedAt": 1793984641000,
         "note": "Changed auto mode with telemetry or feature flags off, including behind LLM gateways: calls the server can't check are asked…"
       },
-      "checkedAt": 1794118028903
+      "checkedAt": 1794206400246
     }
   ],
   "failures": []
