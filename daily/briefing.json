@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedAt": 1795514283100,
+  "checkedAt": 1795596049088,
   "topics": [
     {
       "id": "jevgrep",
@@ -14,7 +14,7 @@
         "publishedAt": 1790889702000,
         "note": "Jevgrep now supports Windows with Node.js 22 or newer. npm installation accepts Windows, credentials and cache use the Windows profile…"
       },
-      "checkedAt": 1795514283100
+      "checkedAt": 1795596049088
     },
     {
       "id": "skills-cli",
@@ -28,7 +28,7 @@
         "publishedAt": 1794824893000,
         "note": "feat(add): warn when a GitHub rate limit forces the blob fast path to clone (#2761)"
       },
-      "checkedAt": 1795514283100
+      "checkedAt": 1795596049088
     },
     {
       "id": "claude-code",
@@ -37,12 +37,12 @@
       "discussionPrompt": "Which change in this release would you test in an isolated project before adopting it, and what behavior should stay unchanged?",
       "sourceUrl": "https://github.com/anthropics/claude-code",
       "latest": {
-        "label": "v2.1.331",
-        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.331",
-        "publishedAt": 1795469681000,
-        "note": "Added Code Mode support in terminal sessions on Amazon Bedrock, Google Cloud's Agent Platform, Microsoft Foundry and Claude Platform on…"
+        "label": "v2.1.332",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.332",
+        "publishedAt": 1795570334000,
+        "note": "Added skills from MCP servers (beta). They show as server:skill in the / menu; other skills keep their names"
       },
-      "checkedAt": 1795514283100
+      "checkedAt": 1795596049088
     }
   ],
   "failures": []
