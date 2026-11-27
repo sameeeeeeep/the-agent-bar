@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedAt": 1795681511745,
+  "checkedAt": 1795768817047,
   "topics": [
     {
       "id": "jevgrep",
@@ -14,7 +14,7 @@
         "publishedAt": 1790889702000,
         "note": "Jevgrep now supports Windows with Node.js 22 or newer. npm installation accepts Windows, credentials and cache use the Windows profile…"
       },
-      "checkedAt": 1795681511745
+      "checkedAt": 1795768817047
     },
     {
       "id": "skills-cli",
@@ -23,12 +23,12 @@
       "discussionPrompt": "What would you inspect before adopting a new skill, and which permissions should stay opt-in?",
       "sourceUrl": "https://github.com/vercel-labs/skills",
       "latest": {
-        "label": "v1.9.0",
-        "url": "https://github.com/vercel-labs/skills/releases/tag/v1.9.0",
-        "publishedAt": 1794824893000,
-        "note": "feat(add): warn when a GitHub rate limit forces the blob fast path to clone (#2761)"
+        "label": "v1.9.1",
+        "url": "https://github.com/vercel-labs/skills/releases/tag/v1.9.1",
+        "publishedAt": 1795755981000,
+        "note": "fix(installer): skip missing project agent dirs in copy mode (#2847)"
       },
-      "checkedAt": 1795681511745
+      "checkedAt": 1795768817047
     },
     {
       "id": "claude-code",
@@ -42,7 +42,7 @@
         "publishedAt": 1795570334000,
         "note": "Added skills from MCP servers (beta). They show as server:skill in the / menu; other skills keep their names"
       },
-      "checkedAt": 1795681511745
+      "checkedAt": 1795768817047
     }
   ],
   "failures": []
