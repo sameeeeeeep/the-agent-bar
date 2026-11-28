@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedAt": 1795768817047,
+  "checkedAt": 1795852451179,
   "topics": [
     {
       "id": "jevgrep",
@@ -14,7 +14,7 @@
         "publishedAt": 1790889702000,
         "note": "Jevgrep now supports Windows with Node.js 22 or newer. npm installation accepts Windows, credentials and cache use the Windows profile…"
       },
-      "checkedAt": 1795768817047
+      "checkedAt": 1795852451179
     },
     {
       "id": "skills-cli",
@@ -28,7 +28,7 @@
         "publishedAt": 1795755981000,
         "note": "fix(installer): skip missing project agent dirs in copy mode (#2847)"
       },
-      "checkedAt": 1795768817047
+      "checkedAt": 1795852451179
     },
     {
       "id": "claude-code",
@@ -42,7 +42,7 @@
         "publishedAt": 1795570334000,
         "note": "Added skills from MCP servers (beta). They show as server:skill in the / menu; other skills keep their names"
       },
-      "checkedAt": 1795768817047
+      "checkedAt": 1795852451179
     }
   ],
   "failures": []
